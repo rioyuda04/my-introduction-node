@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* initialize all */
+*{
+    font-family: 'Poppins';
+}
+/* end */
+
+/* all tag */
+a, a:link{
+    text-decoration: none;
+    color: #161616 !important;
+}
+h2{
+  font-size: medium;
+}
+/* end */
+
+/* body */
+.bd{
+    background-color: rgb(190, 208, 212);
+}
+/* end */
+
+/* page first content */
+.page{
+    box-shadow:  0px 14px 30px rgba(0, 0, 0, 0.25);
+}
+/* end page */
+
+/* content left */
+.left{
+    text-align: justify;
+}
+button:hover{
+    cursor: pointer;
+}
+/* end*/
+
+/* content right */
+.right{
+  width: 40%;
+}
+.img-pf{
+    box-shadow:  0px 13px 27px -5px rgba(50, 50, 93, 0.25);   
+}
+.tx-profile{
+    height: 8vh;
+}
+
+/* end content right */
+
+
+/* allow screen display for max width 1000 px */
+/* @media screen and (max-width:1000px){
+    .page{
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 4%;
+        font-size: 14px;
+    }
+    .icon .bi{
+        font-size: 25px;
+        margin: 4px;
+    }
+    .left .btn-icon{
+        flex-wrap: wrap;
+    }
+    .left h3{
+        width: 100%;
+    }
+    .tx-profile{
+        font-size: 22px;
+    }
+    .right{
+        width: 100%;
+    }
+} */
+/* end  */
+
